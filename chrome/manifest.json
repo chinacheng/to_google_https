@@ -10,5 +10,5 @@
   "background": {
       "page": "background.html"
    },
-  "permissions": [ "tabs", "http://*/" ]
+  "permissions": [ "tabs", "http://*/", "webRequest", "webRequestBlocking"]
 }
