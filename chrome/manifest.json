@@ -1,0 +1,14 @@
+{
+  "name": "to_google_https",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "A way to avoid GFW when you search something with google ",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "":""
+  },
+  "background": {
+      "page": "background.html"
+   },
+  "permissions": [ "tabs", "http://*/" ]
+}
