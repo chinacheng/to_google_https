@@ -20,13 +20,13 @@
 // The onBeforeRequest event will be better, filter and change the matched request url
 chrome.webRequest.onBeforeRequest.addListener(
   function(details) {
-		return{redirectUrl : details.url.replace(/^http/,"https")};
+    return{redirectUrl : details.url.replace(/^http/,"https")};
   },
   {
     urls :[
-					  "http://www.google.com.hk/*",
-						"http://www.google.com/*"
-					]
+            "http://www.google.com.hk/*",
+            "http://www.google.com/*"
+          ]
   },
   ["blocking"]
 );
