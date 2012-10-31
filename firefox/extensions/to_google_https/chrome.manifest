@@ -1,0 +1,3 @@
+content to_google_https chrome/content/
+skin to_google_https classic/1.0 chrome/icons/default
+overlay chrome://browser/content/browser.xul chrome://to_google_https/content/to_google_https.xul
