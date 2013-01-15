@@ -17,7 +17,7 @@
         <em:maxVersion>16.0.*</em:maxVersion>
       </Description>
     </em:targetApplication>
-    
+    <em:iconURL>chrome://to_google_https/skin/16.png</em:iconURL>
     <!-- Front End MetaData -->
     <em:name>to_google_https</em:name>
     <em:description>A extension used to change google from http to https</em:description>

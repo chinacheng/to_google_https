@@ -2,7 +2,6 @@
 <overlay id="to_google_https"    
                  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
-<script type="application/x-javascript" src="chrome://to_google_https/content/javascripts/main.js"/>
 <script type="application/x-javascript" src="chrome://to_google_https/content/javascripts/overlay.js"/>
 
 <statusbar id="status-bar">
