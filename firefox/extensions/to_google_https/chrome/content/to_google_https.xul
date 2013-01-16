@@ -5,7 +5,9 @@
 <script type="application/x-javascript" src="chrome://to_google_https/content/javascripts/overlay.js"/>
 
 <statusbar id="status-bar">
-    <statusbarpanel id="to_google_https" label="GS" />
+    <statusbarpanel label="GS" class="statusbarpanel-menu-iconic" src="chrome://to_google_https/skin/16.png">
+		 <menupopup></menupopup>
+	</statusbarpanel>
 </statusbar>
 
 </overlay>
