@@ -6,9 +6,10 @@ The folder "chrome" is for the chrome browser.
 
 **How to use?**
 
+**The version of Chrome**
 Open a new tab and access chrome://settings/extensions.
 Click the Load unpacked extension button. A file dialog appears. 
 In the file dialog, navigate to your extension's folder(the 'chrome' folder as described above) and click OK. 
 
-
-**The version of Firefox can not used**
+**The version of Firefox**
+It is not used by now.
